@@ -35,19 +35,7 @@ class Validator extends Component {
                             console.log('it is not balanced parenthese')
                             span.innerHTML = "It is not balanced parenthese!";
                             span.style.color = "red";
-                         }// else {
-                        //     // if the current item is not the same as the last item in the tempArray and
-                        //     // check if it is close parentheses
-                        //     if(split[i] === parentheses[1]){
-                        //         tempArray.pop()
-                        //         if(tempArray.length === 0){
-                        //             console.log('it is balanced parentheses')
-                        //             span.innerHTML = "It is balanced parenthese!"
-                        //             span.style.color = "green";
-                        //         }
-                        //     }
-                        // }
-
+                         }
                     // if it is not open parentheses, compare the current item to the last item in the tempArray
                     } else {
                         // if the last item in the tempArray is not the same as the current item, it is balanced parentheses
